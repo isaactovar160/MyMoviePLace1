@@ -1,16 +1,19 @@
-
-
-
 /** All Movies */
 const movies = (req, res) => {
-    res.render('index', {title: 'Movies' });
+    res.render('index', {
+        title: 'Movies'
+    });
 };
 
-const annabelle = (req, res) =>{
-    res.render('movies', {title: 'Annabelle'});
+const annabelle = (req, res) => {
+    res.render('movies', {
+        title: 'Annabelle'
+    });
 };
 const conjuring = (req, res) => {
-    res.render('movies', {title: 'The Conjuring'});
+    res.render('movies', {
+        title: 'The Conjuring'
+    });
 };
 const it = (req, res) => {
     res.render('movies', {
@@ -18,14 +21,18 @@ const it = (req, res) => {
     });
 };
 
-const exorcista = (req, res) => { 
-    res.render('movies', {title: 'El Exorcista'})
+const exorcista = (req, res) => {
+    res.render('movies', {
+        title: 'El Exorcista'
+    })
 };
 
-const insidious = (req, res ) => {
-    res.render('movies', {title:'Insidious'})
+const insidious = (req, res) => {
+    res.render('movies', {
+        title: 'Insidious'
+    })
 };
-const texas = (req, res)=> {
+const texas = (req, res) => {
     res.render('movies', {
         title: 'Texas Chainsaw Massacre: The Beginning'
     })
@@ -40,8 +47,10 @@ const dead_silence = (req, res) => {
         title: 'Dead Silence'
     })
 }
-const the_nun = (req, res)=>{
-    res.render('movies', {title:'The Nun'})
+const the_nun = (req, res) => {
+    res.render('movies', {
+        title: 'The Nun'
+    })
 }
 
 module.exports = {
